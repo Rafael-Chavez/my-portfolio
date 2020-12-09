@@ -31,26 +31,49 @@
       </ul>
   </nav>
         </nav>
-       
-    <body>
-
-        <div class="bg"> 
-        <div class="container">
-
-            <div class=float-sm-left">
-              <div class="card bg-light mb-3" style="max-width">
-              </div>
-              <div class="card border-light"></div>
-            <h1><div class="card-header">Contact</div>
-            <div class="card-body">
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        </div>
-<script src="" async defer></script>
-    </body>
+       <!-- body container that will provide all the information -->
+       <body class="bg">
+        <div class="container" style="
+        margin-left: 20px; margin-top:60px;">
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="card bg-light md-6">
+                <div class="card-body" style="margin: 20px;">
+                  <h1 class="display-6" style="color: rgb(30, 180, 180);">Contact</h1>
+                  <hr>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="name">Name</label>
+                    <div class="col-md-9">
+                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="name">Email</label>
+                    <div class="col-md-9">
+                      <input id="email" name="email" type="email" placeholder="Email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="name">Message</label>
+                    <div class="col-md-9">
+                      <input id="message" email="Email" type="message" placeholder="Message" class="form-control" style="height:114px;">
+                    </div>
+                  </div>
+                  <!-- button and styling on it -->
+                  <style>
+                    .button {
+                      background-color: rgb(30, 180, 180);
+                      border: none;
+                      color: white;
+                      padding: 15px 32px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 16px;
+                      margin: 4px 2px;
+                      cursor: pointer;
+                    }
+                    </style>
+                <button class="button">Submit</button>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>    </body>
 </html>
